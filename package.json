@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@gomomento/sdk": "^1.26.3",
+    "dotenv": "^16.3.1"
+  }
+}
