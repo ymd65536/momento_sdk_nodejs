@@ -2,12 +2,25 @@
 
 Momento SDKを使ってみる
 
-## Setup
+## SetUp
 
-```sh
+ ```sh
 npm install @gomomento/sdk
+npm install dotenv
+ ```
+
+```sh
+export MOMENTO_AUTH_TOKEN=<your Momento token here>
 ```
 
 ```sh
-docker build --build-arg MOMENTO_AUTH_TOKEN=$MOMENTO_AUTH_TOKEN -t momento .
+export MOMENTO_AUTH_TOKEN=
 ```
+
+```sh
+export MOMENTO_TTL_SECONDS=300
+```
+
+## ref
+
+[Getting Started with Momento Cache and Momento Topics](https://docs.momentohq.com/getting-started)

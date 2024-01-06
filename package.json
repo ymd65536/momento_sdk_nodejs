@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kento.Yamada",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@gomomento/sdk": "^1.26.3",
+    "dotenv": "^16.3.1"
+  }
 }
